@@ -42,6 +42,7 @@ body {
 
 .task-row-wrapper {
   display: flex;
+  padding-top: 20px;
 }
 
 ul {
@@ -171,3 +172,4 @@ ul li.editmode input[type="text"] {
 ul li.editmode label {
   display: none;
 }
+
