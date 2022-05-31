@@ -46,8 +46,7 @@
   padding-top: 20px;
 }
 
-.main__todo,
-.main__completed-tasks {
+.main__todo {
   margin: 0;
   padding: 0px;
 }
@@ -153,24 +152,22 @@
 }
 
 /* Completed */
-.completed-tasks__name {
+.main__completed-tasks .task-name {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.todo__input,
-.edit-mode__input,
-.completed-tasks__input {
+.todo__input {
   display: none;
 }
 
-.edit-mode__input {
+.todo__edit-mode .todo__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode__task-name {
+.todo__edit-mode .task-name {
   display: none;
 }
 
